@@ -1,4 +1,4 @@
-# CodePlay :robot:
+# Code Pocket :robot:
 
 This is a repository containing programs written for the Portfolio Project at Holberton School of Computer Science.
 
