@@ -7,5 +7,5 @@ Supported Languages: None (Currently)
 
 ### Authors:
 - [Chris Lind](https://github.com/ChrissLind)
-- [Eiden Davila](https://github.com/EGabriel-bot)
+- [Eiden Martinez Davila](https://github.com/EGabriel-bot)
 - [David Rodriguez](https://github.com/DavidDaniel1996)
