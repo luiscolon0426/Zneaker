@@ -15,10 +15,24 @@
   font-weight: 800;
 }
 
-.navbar a{
+.links a{
   margin-left: 1.25rem;
   padding: 0.9375rem;
   font-size: 1.25rem;
   text-decoration: none;
   color: var(--lightGray);
+}
+
+.login{
+  
+}
+
+.login button{
+  font-size: 1.5rem;
+  padding: 0.7rem 1rem;
+  font-weight: normal;
+  border-radius: 2.5rem;
+  border: none;
+  color: var(--white);
+  background-color: var(--mainColor);
 }
