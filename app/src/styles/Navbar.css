@@ -1,0 +1,24 @@
+@import './constants.css';
+
+.navbar{
+  min-width: 100%;
+  min-height: 8.625rem;
+  display: flex;
+  align-items: center;
+}
+.navbar h1{
+  color: var(--headerColor);
+  font-size: 2rem;
+  width: fit-content;
+  height: fit-content;
+  margin-left: 1.25rem;
+  font-weight: 800;
+}
+
+.navbar a{
+  margin-left: 1.25rem;
+  padding: 0.9375rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: var(--lightGray);
+}

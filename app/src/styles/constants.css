@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Sora:wght@100,200,300,400,500,600,700,800,900&display=swap');
+:root{
+  --headerColor:#2C2C2C;
+  --textColor:#3F3F3F;
+  --mainColor: #A1D1FA;
+  --altColor: #A4A4A4;
+  --headerFont: 2.5rem;
+  --white: #ffff;
+  --lightGray:#A4A4A4;
+}

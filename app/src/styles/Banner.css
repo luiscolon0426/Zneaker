@@ -1,0 +1,22 @@
+@import './constants.css';
+
+.banner{
+  background-color: purple;
+  min-width:100%;
+  min-height: 29.6875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner button{
+  margin: 3.125rem 0;
+  font-size: 1.5rem;
+  transform: translateY(9.375rem);
+  padding: 0.7rem 1rem;
+  font-weight: normal;
+  border-radius: 2.5rem;
+  border: none;
+  color: var(--white);
+  background-color: var(--mainColor);
+}
