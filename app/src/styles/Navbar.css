@@ -5,6 +5,7 @@
   min-height: 8.625rem;
   display: flex;
   align-items: center;
+  overflow: auto;
 }
 .navbar h1{
   color: var(--headerColor);
@@ -15,16 +16,28 @@
   font-weight: 800;
 }
 
+.links{
+  flex:1;
+  margin-left: 20px;
+} 
+.login{
+  display: flex;
+  margin-right: 40px;
+}
+
 .links a{
-  margin-left: 1.25rem;
   padding: 0.9375rem;
   font-size: 1.25rem;
   text-decoration: none;
   color: var(--lightGray);
 }
 
-.login{
-  
+
+.login a{
+  padding: 0.9375rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: var(--lightGray);
 }
 
 .login button{

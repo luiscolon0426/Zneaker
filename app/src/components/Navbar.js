@@ -7,11 +7,11 @@ const Navbar = () => {
         <a href="/">About</a>
         <a href="/">Features</a>
         <a href="/">Team</a>
-        <div className='login'>
+      </div>
+      <div className="login">
           <a href="/">Log in</a>
           <button>Get started</button>
         </div>
-      </div>
     </nav>
    );
 }
