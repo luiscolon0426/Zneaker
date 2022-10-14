@@ -1,6 +1,8 @@
+import { logOut } from '../backend/auth'
+
 const Apy = () => {
   return ( 
-    <h1>Lechugis</h1>
+    <button onClick={logOut}>Lechugis</button>
    );
 }
  

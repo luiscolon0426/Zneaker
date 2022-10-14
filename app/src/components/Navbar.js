@@ -1,4 +1,6 @@
 import '../styles/Navbar.css';
+import { logIn } from '../backend/auth'
+
 const Navbar = () => {
   return ( 
     <nav className="navbar">
@@ -10,7 +12,7 @@ const Navbar = () => {
       </div>
       <div className="login">
           <a href="/">Log in</a>
-          <button>Get started</button>
+          <button onClick={logIn}>Get started</button>
         </div>
     </nav>
    );
