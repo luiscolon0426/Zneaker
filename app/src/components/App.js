@@ -2,6 +2,7 @@ import Banner from './Banner';
 import Navbar from './Navbar';
 import Apy from './Apy';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Features from './Features';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
             <Route path="/home" exact>
               <Navbar/>
               <Banner/>
+              <Features/>
             </Route>
 
             <Route path="/app" exact>

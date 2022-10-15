@@ -1,7 +1,7 @@
 @import './constants.css';
 
 .navbar{
-  min-width: 100%;
+  max-width: 100%;
   min-height: 8.625rem;
   display: flex;
   align-items: center;
@@ -25,19 +25,17 @@
   margin-right: 40px;
 }
 
-.links a{
+a{
   padding: 0.9375rem;
   font-size: 1.25rem;
   text-decoration: none;
   color: var(--lightGray);
 }
 
-
-.login a{
-  padding: 0.9375rem;
-  font-size: 1.25rem;
-  text-decoration: none;
+#getIn{
+  background: none;
   color: var(--lightGray);
+  cursor:pointer;
 }
 
 .login button{
