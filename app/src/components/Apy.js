@@ -1,4 +1,4 @@
-import { logOut } from '../backend/auth'
+import { logOut } from '/home/egabriel/Final/CodePocket/app/src/backend/auth.js'
 
 const Apy = () => {
   return ( 

@@ -1,5 +1,5 @@
 import '../styles/Navbar.css';
-import { logIn } from '../backend/auth';
+import { logIn } from '/home/egabriel/Final/CodePocket/app/src/backend/auth.js';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {

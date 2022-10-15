@@ -2,7 +2,8 @@ import Banner from './Banner';
 import Navbar from './Navbar';
 import Apy from './Apy';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Features from './Features';
+import Body from './Body';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
             <Route path="/home" exact>
               <Navbar/>
               <Banner/>
-              <Features/>
+              <Body/>
+              <Footer/>
             </Route>
 
             <Route path="/app" exact>
