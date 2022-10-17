@@ -4,7 +4,7 @@ import email from '../imgs/email.png';
 import githubLogo from '../imgs/github.png'
 
 const Footer = () => {
-  return ( 
+  return (
     <div className='footer'>
       <img src={logo} alt='_codePocket' className='logo'/>
       <div className='icons'>
