@@ -6,7 +6,7 @@ const Submit = () => {
       <div className="submitContainer">
         <h2 className='submitLabel'>Submit your token here.</h2>
         <div className='inputLayer1'>
-          <div className='inputLayer2'></div>
+          <input type="text" className='inputLayer2'></input>
         </div>
         <div className='submitButton'>
           <button>Submit</button>

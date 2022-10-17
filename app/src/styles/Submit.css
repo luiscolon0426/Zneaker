@@ -32,6 +32,10 @@
   background-color: var(--white);
   position: absolute;
   margin: 10px;
+  font-size: 30px;
+  background-color: var(--white);
+  border: none;
+  z-index: 10;
 }
 
 .submitButton{
