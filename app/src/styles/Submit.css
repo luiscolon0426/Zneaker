@@ -1,0 +1,40 @@
+@import './constants.css';
+
+.submitContainer{
+  width: 678px;
+  height: 540px;
+  background-color: var(--lightGray);
+  margin: 150px auto;
+  border-radius: 40px;
+}
+
+.submitLabel{
+  text-align: center;
+  margin: auto;
+  padding-top: 20%;
+  padding-bottom: 5%;
+  font-size: 35px;
+  inline-size: 400px;
+  background-color: red;
+}
+
+.inputLayer1{
+  width: 465px;
+  height: 96px;
+  margin: auto;
+  background-color: var(--grey);
+  border-radius: 20px;
+}
+.inputLayer2{
+  width: 445px;
+  height: 77px;
+  border-radius: 15px;
+  background-color: var(--white);
+  position: absolute;
+  margin: 10px;
+}
+
+.submitButton{
+  width: 300px;
+  height: 65px;
+}

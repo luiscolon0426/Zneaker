@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Body from './Body';
 import Footer from './Footer';
 import Logout from './Page';
+import Submit from './Submit';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
 
             <Route path="/app" exact>
               <Logout/>
+            </Route>
+            <Route path="/submit" exact>
+              <Submit/>
             </Route>
           </Switch>
       </div>
