@@ -5,7 +5,11 @@
   min-height: 8.625rem;
   display: flex;
   align-items: center;
-  overflow: auto;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 9;
+  border-bottom: 1px solid var(--lightGray);
 }
 .navbar h1{
   color: var(--headerColor);
@@ -21,7 +25,6 @@
   margin-left: 20px;
 } 
 .login{
-  display: flex;
   margin-right: 40px;
 }
 
@@ -29,12 +32,12 @@ a{
   padding: 0.9375rem;
   font-size: 1.25rem;
   text-decoration: none;
-  color: var(--lightGray);
+  color: var(--altColor);
 }
 
 #getIn{
   background: none;
-  color: var(--lightGray);
+  color: var(--altColor);
   cursor:pointer;
 }
 

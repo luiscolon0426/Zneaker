@@ -1,4 +1,37 @@
 .footer{
-background-color: coral;
-margin-top: 90px;
+display: flex;
+width: 50%;
+height: 70px;
+/*background-color: coral;*/
+margin: 0 auto;
+align-items: center;
+justify-content: space-between;
+border-top: 2px solid var(--lightGray);
+}
+
+.logo{
+  width: fit-content;
+  height: fit-content;
+}
+
+.icons{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon-1{
+  width: 32px;
+  height: 32px;
+  /*background-color: green;*/
+} 
+.icon-2{
+  width: 32px;
+  height: 32px;
+  /*background-color: red;*/
+}
+.icon-3{
+  width: 32px;
+  height: 32px;
+  /*background-color: aqua;*/
 }

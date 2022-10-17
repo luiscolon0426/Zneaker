@@ -1,9 +1,9 @@
 import Banner from './Banner';
 import Navbar from './Navbar';
-import Apy from './Apy';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Body from './Body';
 import Footer from './Footer';
+import Logout from './Page';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
             </Route>
 
             <Route path="/app" exact>
-              <Apy/>
+              <Logout/>
             </Route>
           </Switch>
       </div>
