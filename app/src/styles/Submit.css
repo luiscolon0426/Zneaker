@@ -11,11 +11,11 @@
 .submitLabel{
   text-align: center;
   margin: auto;
-  padding-top: 20%;
+  padding-top: 15%;
   padding-bottom: 5%;
   font-size: 35px;
-  inline-size: 400px;
-  background-color: red;
+  inline-size: 300px;
+  font-weight: normal;
 }
 
 .inputLayer1{
@@ -24,6 +24,7 @@
   margin: auto;
   background-color: var(--grey);
   border-radius: 20px;
+  margin-bottom: 30px;
 }
 .inputLayer2{
   width: 445px;
@@ -35,10 +36,21 @@
   font-size: 30px;
   background-color: var(--white);
   border: none;
-  z-index: 10;
 }
 
 .submitButton{
   width: 300px;
   height: 65px;
+  font-size: 35px;
+  margin: auto;
+}
+.submitButton button{
+  margin: auto;
+  font-size: 35px;
+  color: var(--white);
+  display: block;
+  background-color: var(--mainColor);
+  padding: 10px 50px;
+  border-radius: 20px;
+  border: none;
 }
