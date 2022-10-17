@@ -1,0 +1,33 @@
+@import './constants.css';
+
+.navbar{
+  max-width: 100%;
+  min-height: 8.625rem;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 9;
+  border-bottom: 1px solid var(--lightGray);
+}
+.navbar h1{
+  color: var(--headerColor);
+  font-size: 2rem;
+  width: fit-content;
+  height: fit-content;
+  margin-left: 1.25rem;
+  font-weight: 800;
+}
+
+.links{
+  flex:1;
+  margin-left: 20px;
+}
+
+a{
+  padding: 0.9375rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: var(--altColor);
+}
