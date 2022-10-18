@@ -38,8 +38,8 @@ onAuthStateChanged(auth, (user) => {
   // }
   } else {
     uid = 'False'
-    if (window.location.href.indexOf('/app') > -1) {
-      window.location.href = '/home'
+    if (window.location.href.indexOf('/app') > -1 || window.location.href.indexOf('/APP') > -1) {
+      window.location.href = '/'
     }
   }
 });
