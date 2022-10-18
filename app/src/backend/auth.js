@@ -4,9 +4,7 @@ import { auth } from "../firebase.js"
 import { GithubAuthProvider, signInWithRedirect, onAuthStateChanged, getRedirectResult, signOut } from 'firebase/auth'
 import { addUser, saveToken, deleteToken } from "./db.js"
 
-
 const provider = new GithubAuthProvider()
-
 
 // handles log in with Github
 export const logIn = function logIn() {
@@ -39,11 +37,12 @@ onAuthStateChanged(auth, (user) => {
   } else {
     uid = 'False'
     if (window.location.href.indexOf('/app') > -1) {
-      window.location.href = '/home'
+      window.location.href = '/'
     }
   }
 });
 
+// Gets redirect results of log in
 getRedirectResult(auth).then(res => {
   try{
     const credential = GithubAuthProvider.credentialFromResult(res)
