@@ -32,12 +32,12 @@ a{
   padding: 0.9375rem;
   font-size: 1.25rem;
   text-decoration: none;
-  color: var(--altColor);
+  color: var(--textColor);
 }
 
 #getIn{
   background: none;
-  color: var(--altColor);
+  color: var(--textColor);
   cursor:pointer;
 }
 
@@ -48,5 +48,5 @@ a{
   border-radius: 2.5rem;
   border: none;
   color: var(--white);
-  background-color: var(--mainColor);
+  background-color: var(--altColor);
 }

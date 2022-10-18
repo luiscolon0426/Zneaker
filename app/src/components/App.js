@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Body from './Body';
 import Footer from './Footer';
-import Logout from './Page';
+import Page from './Page';
 import Submit from './Submit';
 import Altnav from './Altnav';
 
@@ -20,7 +20,7 @@ function App() {
             </Route>
 
             <Route path="/app" exact>
-              <Logout/>
+              <Page/>
             </Route>
             <Route path="/submit" exact>
               <Altnav/>  

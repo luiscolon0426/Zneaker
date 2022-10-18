@@ -1,7 +1,7 @@
 import { logOut } from '../backend/auth';
 import '../styles/Page.css';
 
-const Logout = () => {
+const Page = () => {
   return ( 
     <div>
       <div className='logoutContainer'>
@@ -21,4 +21,4 @@ const Logout = () => {
    );
 }
  
-export default Logout;
+export default Page;

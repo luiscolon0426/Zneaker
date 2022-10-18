@@ -2,10 +2,11 @@
 :root{
   --headerColor:#2C2C2C;
   --textColor:#3F3F3F;
-  --mainColor: #A1D1FA;
-  --altColor: #A4A4A4;
+  --mainColor:#738cff;
+  --altColor: #6FBCFF;
+  --textColor: #A4A4A4;
   --headerFont: 2.5rem;
-  --white: #f5f5f5;
+  --white: #f9f9f9;
   --lightGray:#d9d9d9;
   --grey: #8d8d8d;
 }

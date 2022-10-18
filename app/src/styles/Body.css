@@ -116,8 +116,19 @@
   background-color: blue;
 }
 
-.member-1-image,
-.member-2-image,
+.member-1-image{
+  width: 24.125rem;
+  height: 30rem;
+  display: block;
+  margin: auto;
+}
+.member-2-image{
+  width: 24.125rem;
+  height: 36rem;
+  transform: translateY(-2rem);
+  display: block;
+  margin: auto;
+}
 .member-3-image{
   width: 24.125rem;
   height: 30rem;

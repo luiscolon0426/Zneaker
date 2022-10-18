@@ -2,7 +2,9 @@ import '../styles/Body.css';
 import cloud from '../imgs/cloud.png';
 import codeAnywhere from '../imgs/anywhere.png';
 import atDisposal from '../imgs/disposal.png';
-import eiden from '../imgs/Eiden.jpg'
+import eiden from '../imgs/Eiden.jpg';
+import chris from '../imgs/chris.JPG';
+import david from '../imgs/david.jpg';
 
 const Features = () => {
   return (
@@ -39,14 +41,14 @@ const Features = () => {
       <div className='team'>
         <div>
           <div className='member-1-container'>
-            <img className='member-1-image' src="" alt="" />
+            <img className='member-1-image' src={david} alt="team-member-1" />
           </div>
           <p id='member-name'>David Rodriguez Jimenez</p>
           <p id='member-position'>Full-Stack Developer</p>
         </div>
         <div>
           <div className='member-2-container'>
-            <img className='member-2-image' src="" alt="" />
+            <img className='member-2-image' src={chris} alt="team-member-2" />
           </div>
           <p id='member-name'>Christopher Lind</p>
           <p id='member-position'>Full-Stack Developer</p>
