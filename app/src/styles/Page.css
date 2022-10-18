@@ -55,14 +55,14 @@
 }
 
 .repoContainer{
-  background-color: var(--altColor);
+  background-color: var(--textColor);
   width: 16.75rem;
   height: 6.25rem;
   border-radius: 1.875rem 0rem 0rem 1.875rem;
 }
 
 .fileContainer{
-  background-color: var(--altColor);
+  background-color: var(--textColor);
   width: 16.75rem;
   height: 6.25rem;
   border-radius: 0rem 1.875rem 1.875rem 0rem;
@@ -72,6 +72,6 @@
 .codeContainer{
   width: 78.0625rem;
   height: 37.5rem;
-  background-color: var(--altColor);
+  background-color: var(--textColor);
   border-radius: 2.5rem;
 }
