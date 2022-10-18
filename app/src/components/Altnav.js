@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="navbar">
       <h1>_codePocket</h1>
       <div className="links">
-        <Link to="/">About</Link>
+        <Link to="/app">About</Link>
         <Link to="/">Features</Link>
         <Link to="/">Team</Link>
       </div>

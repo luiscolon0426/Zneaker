@@ -2,76 +2,76 @@
 
 
 .logoutContainer{
-  width: 318px;
-  height: 79px;
+  width: 19.875rem;
+  height: 4.9375rem;
   background-color: var(--mainColor);
-  border-radius: 40px;
+  border-radius: 2.5rem;
   position: absolute;
-  right: 0;
-  top: 0;
-  margin: 50px 50px;
+  right: 0rem;
+  top: 0rem;
+  margin: 3.125rem;
   text-align: center;
 }
 
 .logout{
-  width: 260px;
-  height: 70px;
-  font-size: 35px;
+  width: 16.25rem;
+  height: 4.375rem;
+  font-size: 2.1875rem;
   font-weight: normal;
   background-color: transparent;
   color: var(--white);
   border: none;
-  padding-right: 80px;
-  top: 0;
+  padding-right: 5rem;
+  top: 0rem;
   cursor: pointer;
-  margin-top: 8px;
+  margin-top: 0.5rem;
 }
 
 .userIcon{
   border-radius: 100%;
-  width: 54px;
-  height: 54px;
+  width: 3.375rem;
+  height: 3.375rem;
   background-color: var(--lightGray);
-  margin: -65px 40px;
+  margin: -4.0625rem 2.5rem;
   display: block;
   float: right;
 }
 
 .pageContainer{
-  width: 1249px;
-  height: 787px;
-  margin: 150px auto;
-  margin-bottom: 0;
+  width: 78.0625rem;
+  height: 49.1875rem;
+  margin: 9.375rem auto;
+  margin-bottom: 0rem;
 }
 
 .dataContainer{
   width: fit-content;
   display: flex;
-  gap: 10px;
-  border-radius: 30px;
+  gap: 0.625rem;
+  border-radius: 1.875rem;
   z-index: -9;
   background-color: var(--lightGray);
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 
 .repoContainer{
   background-color: var(--altColor);
-  width: 268px;
-  height: 100px;
-  border-radius: 30px 0 0 30px;
+  width: 16.75rem;
+  height: 6.25rem;
+  border-radius: 1.875rem 0rem 0rem 1.875rem;
 }
 
 .fileContainer{
   background-color: var(--altColor);
-  width: 268px;
-  height: 100px;
-  border-radius: 0 30px 30px 0;
+  width: 16.75rem;
+  height: 6.25rem;
+  border-radius: 0rem 1.875rem 1.875rem 0rem;
 }
 
 
 .codeContainer{
-  width: 1249px;
-  height: 600px;
+  width: 78.0625rem;
+  height: 37.5rem;
   background-color: var(--altColor);
-  border-radius: 40px;
+  border-radius: 2.5rem;
 }

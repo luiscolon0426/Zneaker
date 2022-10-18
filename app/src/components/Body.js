@@ -2,6 +2,7 @@ import '../styles/Body.css';
 import cloud from '../imgs/cloud.png';
 import codeAnywhere from '../imgs/anywhere.png';
 import atDisposal from '../imgs/disposal.png';
+import eiden from '../imgs/Eiden.jpg'
 
 const Features = () => {
   return (
@@ -36,15 +37,24 @@ const Features = () => {
       </div>
       <h2 id='teamLabel'>Meet the team</h2>
       <div className='team'>
-        <div className='member-1'>
+        <div>
+          <div className='member-1-container'>
+            <img className='member-1-image' src="" alt="" />
+          </div>
           <p id='member-name'>David Rodriguez Jimenez</p>
           <p id='member-position'>Full-Stack Developer</p>
         </div>
-        <div className='member-2'>
+        <div>
+          <div className='member-2-container'>
+            <img className='member-2-image' src="" alt="" />
+          </div>
           <p id='member-name'>Christopher Lind</p>
           <p id='member-position'>Full-Stack Developer</p>
         </div>
-        <div className='member-3'>
+        <div>
+          <div className='member-3-container'>
+            <img className='member-3-image' src={eiden} alt="team-member-3" />
+          </div>
           <p id='member-name'>Eiden Martinez Davila</p>
           <p id='member-position'>Front-End Developer</p>
         </div>

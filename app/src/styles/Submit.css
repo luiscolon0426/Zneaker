@@ -1,11 +1,11 @@
 @import './constants.css';
 
 .submitContainer{
-  width: 678px;
-  height: 540px;
+  width: 42.375rem;
+  height: 33.75rem;
   background-color: var(--lightGray);
-  margin: 150px auto;
-  border-radius: 40px;
+  margin: 9.375rem auto;
+  border-radius: 2.5rem;
 }
 
 .submitLabel{
@@ -13,44 +13,45 @@
   margin: auto;
   padding-top: 15%;
   padding-bottom: 5%;
-  font-size: 35px;
-  inline-size: 300px;
+  font-size: 2.1875rem;
+  inline-size: 18.75rem;
   font-weight: normal;
 }
 
 .inputLayer1{
-  width: 465px;
-  height: 96px;
+  width: 29.0625rem;
+  height: 6rem;
   margin: auto;
   background-color: var(--grey);
-  border-radius: 20px;
-  margin-bottom: 30px;
+  border-radius: 1.25rem;
+  margin-bottom: 1.875rem;
 }
 .inputLayer2{
-  width: 445px;
-  height: 77px;
-  border-radius: 15px;
+  width: 27.8125rem;
+  height: 4.8125rem;
+  border-radius: 0.9375rem;
   background-color: var(--white);
   position: absolute;
-  margin: 10px;
-  font-size: 30px;
+  margin: 0.625rem;
+  font-size: 1.875rem;
   background-color: var(--white);
   border: none;
 }
 
 .submitButton{
-  width: 300px;
-  height: 65px;
-  font-size: 35px;
+  width: 18.75rem;
+  height: 4.0625rem;
+  font-size: 2.1875rem;
   margin: auto;
 }
 .submitButton button{
   margin: auto;
-  font-size: 35px;
+  font-size: 2.1875rem;
   color: var(--white);
   display: block;
   background-color: var(--mainColor);
-  padding: 10px 50px;
-  border-radius: 20px;
+  padding: 0.625rem 3.125rem;
+  border-radius: 1.25rem;
   border: none;
+  cursor: pointer;
 }

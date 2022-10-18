@@ -9,7 +9,7 @@
   top: 0;
   background-color: white;
   z-index: 9;
-  border-bottom: 1px solid var(--lightGray);
+  border-bottom: 0.0625rem solid var(--lightGray);
 }
 .navbar h1{
   color: var(--headerColor);
@@ -22,7 +22,7 @@
 
 .links{
   flex:1;
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 
 a{

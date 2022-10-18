@@ -9,7 +9,7 @@ const Submit = () => {
           <input type="text" className='inputLayer2'></input>
         </div>
         <div className='submitButton'>
-          <button>Submit</button>
+          <button type='submit'>Submit</button>
         </div>
       </div>
     </div>
