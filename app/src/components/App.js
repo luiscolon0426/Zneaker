@@ -5,6 +5,7 @@ import Body from './Body';
 import Footer from './Footer';
 import Logout from './Page';
 import Submit from './Submit';
+import Altnav from './Altnav';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
               <Logout/>
             </Route>
             <Route path="/submit" exact>
+              <Altnav/>  
               <Submit/>
             </Route>
           </Switch>
