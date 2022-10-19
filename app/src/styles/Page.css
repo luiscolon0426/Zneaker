@@ -1,41 +1,36 @@
 @import '/src/styles/constants.css';
 
-
-.logoutContainer{
-  width: 19.875rem;
-  height: 4.9375rem;
-  background-color: var(--mainColor);
-  border-radius: 2.5rem;
-  position: absolute;
-  right: 0rem;
-  top: 0rem;
-  margin: 3.125rem;
-  text-align: center;
+.playContainer{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
 }
-
-.logout{
-  width: 16.25rem;
-  height: 4.375rem;
-  font-size: 2.1875rem;
-  font-weight: normal;
-  background-color: transparent;
-  color: var(--white);
+.fillPocket{
+  background-color: var(--altColor);
   border: none;
-  padding-right: 5rem;
-  top: 0rem;
-  cursor: pointer;
-  margin-top: 0.5rem;
+  width: 215px;
+  height: 57px;
+  font-size: 1.5rem;
+  padding: 1px;
+  border-radius: 15px;
+  font-weight: normal;
+  color: var(--white);
 }
 
-.userIcon{
-  border-radius: 100%;
-  width: 3.375rem;
-  height: 3.375rem;
-  background-color: var(--lightGray);
-  margin: -4.0625rem 2.5rem;
-  display: block;
-  float: right;
+.play{
+  width: 57px;
+  height: 57px;
+  border-radius: 15px;
+  border: none;
+  background-color: var(--altColor);
 }
+
+.play img{
+  display: block;
+  margin: 0 20px;
+}
+
 
 .pageContainer{
   width: 78.0625rem;
@@ -44,21 +39,34 @@
   margin-bottom: 0rem;
 }
 
-.dataContainer{
-  width: fit-content;
-  display: flex;
-  gap: 0.625rem;
-  border-radius: 1.875rem;
-  z-index: -9;
-  background-color: var(--lightGray);
-  margin-bottom: 2.5rem;
-}
-
 .repoContainer{
   background-color: var(--textColor);
-  width: 16.75rem;
-  height: 6.25rem;
-  border-radius: 1.875rem 0rem 0rem 1.875rem;
+  width:initial;
+  height: 48px;
+  border-radius: 1.25rem 0rem 0rem 0rem;
+  font-size: 24px;
+  font-weight: normal;
+  background-color: var(--mainColor);
+  border: none;
+  padding-left: 20px;
+  color: var(--white);
+}
+
+.repo{
+  padding-top: 10px;
+}
+
+.outputSelect{
+  background-color: var(--textColor);
+  width: 100%;
+  height: 48px;
+  border-radius: 0rem 1.25rem 0rem 0rem;
+  font-size: 24px;
+  font-weight: normal;
+  background-color: var(--mainColor);
+  border: none;
+  padding-left: 20px;
+  color: var(--white);
 }
 
 .fileContainer{
@@ -68,24 +76,35 @@
   border-radius: 0rem 1.875rem 1.875rem 0rem;
 }
 
+.dataContainer{
+  width: 72rem;
+  height: 40rem;
+  background-color: var(--lightGray);
+  padding-left: 30px;
+  padding-top: 30px;
+  border-radius: 20px;
+}
 
 .codeContainer{
-  width: 78.0625rem;
+  width: 69.875rem;
   height: 37.5rem;
-  background-color: var(--textColor);
+  background:none;
   border-radius: 2.5rem;
   display: flex;
-  gap: 30px;
+  align-content: center;
+  gap: 3px;
 }
 
 .codeBox1{
   width: 50%;
   height: inherit;
-  background-color: var(--lightGray);
+  background-color: var(--white);
+  border-radius: 20px 0 0 20px;
 }
 
 .codeBox2{
   width: 50%;
   height: inherit;
-  background-color: var(--lightGray);
+  background-color: var(--white);
+  border-radius: 0 20px 20px 0;
 }

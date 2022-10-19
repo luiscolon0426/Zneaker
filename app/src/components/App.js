@@ -20,10 +20,10 @@ function App() {
             </Route>
 
             <Route path="/app" exact>
+              <Altnav/>
               <Page/>
             </Route>
-            <Route path="/submit" exact>
-              <Altnav/>  
+            <Route path="/submit" exact>  
               <Submit/>
             </Route>
           </Switch>

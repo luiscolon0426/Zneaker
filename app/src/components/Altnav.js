@@ -1,15 +1,15 @@
-import '../styles/Navbar.css';
-import { Link } from 'react-router-dom';
+import '../styles/Altnav.css';
+import { logOut } from '../backend/auth';
 
 const Navbar = () => {
   return ( 
-    <nav className="navbar">
+    <nav className="nav_bar">
       <h1>_codePocket</h1>
-      <div className="links">
-        <Link to="/app">About</Link>
-        <Link to="/">Features</Link>
-        <Link to="/">Team</Link>
-      </div>
+          {/*<Link to="/" onClick={logIn}>Log in</Link>*/}
+          <div className='logoutContainer'>
+            <button onClick={logOut}>Log out</button>
+            <div className='homeUserIcon'></div>
+          </div>
     </nav>
    );
 }

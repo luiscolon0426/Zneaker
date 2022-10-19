@@ -4,15 +4,16 @@
   background-color: var(--mainColor);
   min-width:100%;
   min-height: 40rem;
+  display: flex;
+  justify-content: space-between;
 }
 .aboutText-container{
   width: fit-content;
-  top: 300px;
-  left: 300px;
   font-size: 48px;
   inline-size: 560px;
   text-align: right;
-  position: absolute;
+  margin-top: 150px;
+  margin-left: 300px;
 } 
 .aboutText{
   width: fit-content;
@@ -21,7 +22,6 @@
 }
 
 .bannerImage-container{
-  margin: 0;
   width: fit-content;
   height: fit-content;
   float: right;
@@ -31,19 +31,19 @@
 .bannerImage{
   width: 839px;
   height: 558px;
-  display: block;
 }
 
 .banner button{
   font-size: 1.5rem;
+  width: fit-content;
+  height: fit-content;
   padding: .7rem 1.5rem;
+  white-space: nowrap;
   font-weight: normal;
   border-radius: 0.9375rem;
   border: none;
   color: var(--white);
   background-color: var(--altColor);
-  position: absolute;
-  bottom: 300px;
-  left: 520px;
   cursor: pointer;
+  margin: 90px 100px;
 }
