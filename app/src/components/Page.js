@@ -4,7 +4,7 @@ import play_button from '../imgs/PLAY.png'
 
 const Page = () => {
   return ( 
-    <div>
+    <div className='parentPage'>
         <div className='pageContainer'>
           {/*<div className='UserIcon'></div>*/}
           <div className='playContainer'>

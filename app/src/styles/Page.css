@@ -1,5 +1,9 @@
 @import '/src/styles/constants.css';
 
+.parentPage{
+  transform: translateY(-50px);
+}
+
 .playContainer{
   display: flex;
   align-items: center;
