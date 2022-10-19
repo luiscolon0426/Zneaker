@@ -74,4 +74,18 @@
   height: 37.5rem;
   background-color: var(--textColor);
   border-radius: 2.5rem;
+  display: flex;
+  gap: 30px;
+}
+
+.codeBox1{
+  width: 50%;
+  height: inherit;
+  background-color: var(--lightGray);
+}
+
+.codeBox2{
+  width: 50%;
+  height: inherit;
+  background-color: var(--lightGray);
 }

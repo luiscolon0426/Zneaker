@@ -26,7 +26,10 @@ const Page = () => {
             </select>
             </div>
           </div>
-          <div className='codeContainer'></div>
+          <div className='codeContainer'>
+            <div className='codeBox1'></div>
+            <div className='codeBox2'></div>
+          </div>
         </div>
     </div>
    );
