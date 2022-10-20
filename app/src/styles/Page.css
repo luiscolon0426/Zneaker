@@ -112,3 +112,7 @@
   background-color: var(--white);
   border-radius: 0 20px 20px 0;
 }
+
+.codeBox1 p, .codeBox2 p{
+  padding: 1.25rem 0rem 0rem 1.25rem;
+}
