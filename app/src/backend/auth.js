@@ -3,6 +3,7 @@
 import { auth } from '../firebase.js';
 import { GithubAuthProvider, signInWithRedirect, onAuthStateChanged, getRedirectResult, signOut } from 'firebase/auth';
 import { addUser, saveToken, deleteToken } from './db.js';
+import { setPic } from './api.js';
 
 const provider = new GithubAuthProvider();
 
@@ -31,6 +32,7 @@ onAuthStateChanged(auth, (user) => {
     uid = user.uid;
     console.log('User logged in');
     addUser();
+    setPic();
   // if (window.location.href.indexOf('/home') > -1) {
   //   window.location.href = '/app'
   // }

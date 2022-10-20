@@ -4,9 +4,9 @@ import { getToken, userInfo } from './db';
 const data = '';
 
 // Gets users github info (username)
-export const getGithubInfo = async function getGithubInfo () {
+export const getGithubInfo = async function getGithubInfo (dataRequested) {
   const token = await getToken();
-  let userName;
+  let data;
   const config = {
     method: 'get',
     url: 'https://api.github.com/user',
@@ -17,14 +17,27 @@ export const getGithubInfo = async function getGithubInfo () {
     data: data
   };
 
-  return axios(config)
-    .then(function (response) {
-      userName = response.data.login;
-      return userName;
+  if (dataRequested === 'login') {
+    return axios(config)
+    .then(function (response) { 
+      data = response.data.login;
+      return data;
     })
     .catch(function (error) {
       console.log(error);
     });
+  } else if (dataRequested === 'avatar') {
+    return axios(config)
+    .then(function (response) { 
+      data = response.data.avatar_url;
+      return data;
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
+  } else {
+    return undefined
+  }
 };
 
 // Gets a list of valid repos
@@ -111,6 +124,13 @@ export const getSingleFile = async function getSingleFile (repo, filename) {
       console.log(error);
     });
 };
+
+
+export const setPic = async function setPic() {
+  const avatar = await getGithubInfo('avatar')
+  const avatarTag = document.getElementById('avatar')
+  avatarTag.src = avatar
+}
 
 // export const printRepoList = async function printRepoList() {
 //   const repoList = await getFiles()

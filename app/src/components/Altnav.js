@@ -9,7 +9,7 @@ const Navbar = () => {
           <div className='logoutContainer'>
             <button onClick={logOut}>Log out</button>
             <div className='userIcon'>
-              <img src="https://www.indochinatravel.com/country/myanmar/images/gallery/bagan-1.jpg" alt=""/>
+              <img id="avatar" alt=""/>
             </div>
           </div>
     </nav>
