@@ -19,7 +19,7 @@ const Page = () => {
                 <div className='repoContainer'>
                   <div id="repo" className='repo'>No repo</div>
               </div>
-              <p id="fileDisplay">file content</p>
+              <p contentEditable="true" id="fileDisplay">file content</p>
             </div>
             <div id='outputBox'className='codeBox2'>
               <select id="file" className='outputSelect'>
