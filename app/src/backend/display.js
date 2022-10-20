@@ -29,13 +29,15 @@ export const fillThePocket = async function fillThePocket () {
 
     for (let i = 0; i < files.length; i++) {
       const opt = document.createElement('option');
+      const pre = document.createElement('pre');
       opt.text = files[i];
       opt.addEventListener('click', () => {
-        // console.log(opt.text)
-        clearBox()
-        displayFile(repos[0], files[i]).then(res => [
-          fdisplayTag.innerHTML = res
-        ]);
+        clearFileBox()
+        clearOutputBox()
+        displayFile(repos[0], files[i]).then(res => {
+          pre.innerHTML = res
+          fdisplayTag.appendChild(pre)
+        });
       });
 
       fileTag.appendChild(opt);
@@ -56,27 +58,28 @@ export const displayFile = async function displayFile (repo, fileName) {
 //   console.log(data);
   const buff = atob(data);
   const content = buff.toString('ascii');
-  let text = content.replace(/\n/g, "<br>") 
+  // let text = content.replace(/\n/g, "<br>") 
 
-  return text;
+  return content;
 };
 
 // Reads text inside filebox
 export const readFileDisplay = function readFileDisplay() {
     const fileTag = document.getElementById('fileDisplay');
-    let fileContent = fileTag.innerHTML
+    let fileContent = fileTag.firstChild.textContent
     return fileContent
 }
 
 // Display the output on the outputbox
 export const displayOutput = async function displayOutput() {
-    clearBox()
+    clearOutputBox()
     if (console.oldLog) {
         console.log = console.oldLog
     }
     const outputTag = document.getElementById('outputDisplay')
     let text = readFileDisplay()
-    let fileContent = text.replace(/<br>/g, '\n')
+    let fileContent = text
+    //.replace(/<br>/g, '\n')
     // console.log(fileContent)
     fileContent = htmlScreening(fileContent)
     // console.log(fileContent)
@@ -97,7 +100,7 @@ export const displayOutput = async function displayOutput() {
 }
 
 // Clears the text in the output box
-export const clearBox = function clearBox() {
+export const clearOutputBox = function clearOutputBox() {
     const outputTag = document.getElementById('outputDisplay')
 
     if (outputTag.hasChildNodes) {
@@ -105,4 +108,15 @@ export const clearBox = function clearBox() {
             outputTag.removeChild(outputTag.firstChild)
         }
     }
+}
+
+// Clears the text in the file box
+export const clearFileBox = function clearFileBox() {
+  const fileTag = document.getElementById('fileDisplay')
+
+  if (fileTag.hasChildNodes) {
+    while (fileTag.firstChild) {
+      fileTag.removeChild(fileTag.firstChild)
+    }
+  }
 }
