@@ -49,7 +49,7 @@ export const getRepos = async function getRepos () {
       response.data.forEach(repo => {
         repoList.push(repo.name);
       });
-      const validRepo = repoList.filter(repo => { return repo.includes('.codepocket'); });
+      const validRepo = repoList.filter(repo => { return repo.includes('.pocket'); });
       return validRepo;
     })
     .catch(function (error) {

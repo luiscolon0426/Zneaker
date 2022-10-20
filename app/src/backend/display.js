@@ -1,8 +1,13 @@
 import { getRepos, getFiles, getSingleFile } from './api';
+import { htmlScreening } from './screening'
+
 
 let firstClick = false;
+
+// Grabs valid repo and all valid files to display
 export const fillThePocket = async function fillThePocket () {
   if (firstClick === false) {
+    alert("Filling pocket!")
     firstClick = true;
     const repos = await getRepos();
     const files = await getFiles(repos[0]);
@@ -17,7 +22,8 @@ export const fillThePocket = async function fillThePocket () {
     console.log('Filling with the pocket...');
     const repoTag = document.getElementById('repo');
     const fileTag = document.getElementById('file');
-    const fboxTag = document.getElementById('fileBox');
+    // const fboxTag = document.getElementById('fileBox');
+    const fdisplayTag = document.getElementById('fileDisplay')
 
     repoTag.innerHTML = `${repos[0]}`;
 
@@ -26,26 +32,76 @@ export const fillThePocket = async function fillThePocket () {
       opt.text = files[i];
       opt.addEventListener('click', () => {
         // console.log(opt.text)
+        clearBox()
         displayFile(repos[0], files[i]).then(res => [
-          fboxTag.innerHTML = res
+          fdisplayTag.innerHTML = res
         ]);
       });
 
       fileTag.appendChild(opt);
     }
     // repoTag.appendChild(opt1)
+  } else {
+    alert("Pocket Full!")
   }
 };
 
+// Displays content of file into filebox
 export const displayFile = async function displayFile (repo, fileName) {
   let file;
   await getSingleFile(repo, fileName).then(res => {
     file = res;
   });
   const data = file.content;
-  console.log(data);
+//   console.log(data);
   const buff = atob(data);
-  const text = buff.toString('ascii');
+  const content = buff.toString('ascii');
+  let text = content.replace(/\n/g, "<br>") 
 
   return text;
 };
+
+// Reads text inside filebox
+export const readFileDisplay = function readFileDisplay() {
+    const fileTag = document.getElementById('fileDisplay');
+    let fileContent = fileTag.innerHTML
+    return fileContent
+}
+
+// Display the output on the outputbox
+export const displayOutput = async function displayOutput() {
+    if (console.oldLog) {
+        console.log = console.oldLog
+    }
+    const outputTag = document.getElementById('outputDisplay')
+    let text = readFileDisplay()
+    let fileContent = text.replace(/<br>/g, '\n')
+    // console.log(fileContent)
+    fileContent = htmlScreening(fileContent)
+    // console.log(fileContent)
+
+    console.oldLog = console.log
+
+    console.log = function (value) {
+        console.oldLog(value)
+        // if (!outputTag.hasChildNodes) {
+        //     outputTag.innerHTML = value
+        // } else {
+        //     outputTag.innerHTML += "<br>" + value
+        // }
+        outputTag.innerHTML += value + "<br>"
+    }
+
+    eval(fileContent)
+}
+
+// Clears the text in the output box
+export const clearBox = function clearBox() {
+    const outputTag = document.getElementById('outputDisplay')
+
+    if (outputTag.hasChildNodes) {
+        while (outputTag.firstChild) {
+            outputTag.removeChild(outputTag.firstChild)
+        }
+    }
+}
