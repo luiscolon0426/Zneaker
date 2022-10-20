@@ -42,7 +42,7 @@
   cursor: pointer;
 }
 
-.homeUserIcon{
+.userIcon{
   border-radius: 100%;
   width: 2.8125rem;
   height: 2.8125rem;
@@ -50,4 +50,10 @@
   background-color: var(--lightGray);
   display: block;
   float: right;
+  overflow: hidden;
+}
+
+.userIcon img{
+  width: 2.8125rem;
+  height: 2.8125rem;
 }
