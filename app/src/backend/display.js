@@ -70,6 +70,7 @@ export const readFileDisplay = function readFileDisplay() {
 
 // Display the output on the outputbox
 export const displayOutput = async function displayOutput() {
+    clearBox()
     if (console.oldLog) {
         console.log = console.oldLog
     }
