@@ -3,7 +3,7 @@
 This is a repository containing programs written for the Portfolio Project at Holberton School of Computer Science.
 
 ## Code Pocket is a fun way to showcase simple funtions that you have made, on the go.
-Supported Languages: None (Currently)
+Supported Languages: JavaScript
 
 ### Authors:
 - [Chris Lind](https://github.com/ChrissLind)
