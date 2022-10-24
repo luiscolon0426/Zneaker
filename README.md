@@ -18,7 +18,7 @@ With _codePocket we want you to bring your code with you on your phone, and be a
 
   Supported Languages: JavaScript
 
-### Authors :scroll:
+## Authors :scroll:
 - [Chris Lind](https://github.com/ChrissLind)
 - [Eiden Martinez Davila](https://github.com/EGabriel-bot)
 - [David Rodriguez Jimenez](https://github.com/DavidDaniel1996)
