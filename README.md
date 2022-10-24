@@ -1,11 +1,14 @@
-# Code Pocket :robot:
+# Code Pocket :jeans:
+---
+It's code... but in your pocket.
+![_codePocket favicon](https://imgur.com/a/lUa6NH7)
 
-This is a repository containing programs written for the Portfolio Project at Holberton School of Computer Science.
-
-## Code Pocket is a fun way to showcase simple funtions that you have made, on the go.
+## About :blue_book:
+Have you ever wanted to show off your code but only have your phone? Maybe want to write a function to help automate some aspect of your life?
+_codePocket is a fun way to showcase simple funtions that you have made, on the go. As developers we have all had moments where we think to ourselves "I think I could write something in <preferredlanguage> to do this!" sometimes for even the simpleist of things, like simiulating a dice roll. With _codePocket we want you to bring your code with you on your phone, and be able to run it and show it off anywhere at any time!
 Supported Languages: JavaScript
 
-### Authors:
+### Authors :scroll:
 - [Chris Lind](https://github.com/ChrissLind)
 - [Eiden Martinez Davila](https://github.com/EGabriel-bot)
-- [David Rodriguez](https://github.com/DavidDaniel1996)
+- [David Rodriguez Jimenez](https://github.com/DavidDaniel1996)
