@@ -1,5 +1,5 @@
 import { getRepos, getFiles, getSingleFile } from './api';
-import { htmlScreening } from './screening'
+import { htmlScreening, securityClearence } from './screening'
 
 
 let firstClick = false;
@@ -96,7 +96,12 @@ export const displayOutput = async function displayOutput() {
         outputTag.innerHTML += value + "<br>"
     }
 
-    eval(fileContent)
+    let match = await securityClearence();
+    if (match === true) {
+      eval(fileContent);
+    } else {
+      alert("Unauthorized to run code");
+    }
 }
 
 // Clears the text in the output box
