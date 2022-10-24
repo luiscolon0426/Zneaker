@@ -18,22 +18,17 @@ With _codePocket we want you to bring your code with you on your phone, and be a
 
 Supported Languages: JavaScript
   
-## How to use _codePocket
+## How to use \_codePocket
 1. Enter [https://codepocket-4161f.web.app/](https://codepocket-4161f.web.app/) into your brower.
-    -
-    -
 
 2. Login to your github via firebase authentication.
-    -
-    -
+    - Once you have been logged in click the  'Into the pocket' button that will get you into the application
   
 3. On the output page fill your pocket with your .pocket repository and select a valid javascript file.
-    -
-    -
+    - \_codePocket will automatically fill a repo that's name ends in '.pocket'
+    - Within your repo only .js files will show up and can be run
 
 4. Run your code, change it or select a different file!
-    -
-    -
     
 ## Dependencies
 | Tool/Library| Version |
