@@ -41,7 +41,7 @@ Supported Languages: JavaScript
 | axios     | ^1.1.3       |
 | firebase   | ^9.12.1        |
 | react    |   ^18.2.0     |
-| Node.js   | v14.20.0  |
+| Node.js   | ^14.20.0  |
 
 
 ## Authors :scroll:
