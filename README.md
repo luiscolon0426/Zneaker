@@ -36,10 +36,10 @@ Supported Languages: JavaScript
     -
     
 ## Dependencies
-| Syntax      | Description | Test Text     |
-| :---        |    :----:   |          ---: |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
+| Syntax      | Description |
+| :---        |    :----:   |
+| Header      | Title       |
+| Paragraph   | Text        |
 
 
 ## Authors :scroll:
