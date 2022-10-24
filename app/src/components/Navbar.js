@@ -7,14 +7,12 @@ const Navbar = () => {
     <nav className="navbar">
       <h1>_codePocket</h1>
       <div className="links">
-        <Link to="/">About</Link>
         <Link to="/">Features</Link>
-        <Link to="/">Team</Link>
+        <Link className='center' to="/">Team</Link>
       </div>
       <div className="login">
           {/*<Link to="/" onClick={logIn}>Log in</Link>*/}
           <button id='getIn' onClick={logIn}>Log in</button>
-          <button>Sign up</button>
         </div>
     </nav>
    );
