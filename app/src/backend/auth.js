@@ -4,6 +4,7 @@ import { auth } from '../firebase.js';
 import { GithubAuthProvider, signInWithRedirect, onAuthStateChanged, getRedirectResult, signOut } from 'firebase/auth';
 import { addUser, saveToken, deleteToken } from './db.js';
 import { setPic } from './api.js';
+import { securityClearence } from './screening.js';
 
 const provider = new GithubAuthProvider();
 
@@ -32,13 +33,24 @@ onAuthStateChanged(auth, (user) => {
     uid = user.uid;
     console.log('User logged in');
     addUser();
-    setPic();
+    securityClearence().then(match => {
+      if (match === true) {
+        setPic();
+      } else {
+        if (window.location.href.indexOf('/app') > -1) {
+          alert("Unauthorized user detected")
+          window.location.href = '/';
+        }
+      }
+    })
+    // console.log("After clearance")
   // if (window.location.href.indexOf('/home') > -1) {
   //   window.location.href = '/app'
   // }
   } else {
     uid = 'False';
     if (window.location.href.indexOf('/app') > -1) {
+      alert("Please log in")
       window.location.href = '/';
     }
   }

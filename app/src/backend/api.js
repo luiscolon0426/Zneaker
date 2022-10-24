@@ -3,7 +3,7 @@ import { getToken, userInfo } from './db';
 
 const data = '';
 
-// Gets users github info (username)
+// Gets user's specified github info
 export const getGithubInfo = async function getGithubInfo (dataRequested) {
   const token = await getToken();
   let data;
@@ -125,7 +125,7 @@ export const getSingleFile = async function getSingleFile (repo, filename) {
     });
 };
 
-
+// Setes github pic
 export const setPic = async function setPic() {
   const avatar = await getGithubInfo('avatar')
   const avatarTag = document.getElementById('avatar')

@@ -1,3 +1,29 @@
+import { uid } from "./auth"
+
+// Allows only authorized users to access the apps functionality
+export const securityClearence = async function securityClearence() {
+    const authorizedIds = [
+        "djYi4ZLzzkQpcMa28h7CKpaOJEa2",
+        "yzg4qeZbkvcULl9sBxRVnpQXt8g1",
+        "0ntfA5XkLlZnjzSf4aRdtA9Rqi02"
+    ]
+
+    let match = false
+    authorizedIds.forEach(id => {
+        if (uid === id) {
+            match = true
+            // console.log("Authorized id")
+        }
+    })
+    // if (match === false) {
+    //     console.log("Unauthorized id")
+    // }
+
+    return match
+}
+
+
+// Converts special HTML characters for javascript processing
 export const htmlScreening = function htmlScreening(fileContent) {
     let entities = [
         "&lt;",
@@ -34,3 +60,4 @@ export const htmlScreening = function htmlScreening(fileContent) {
         return fileContent
     }
 }
+
