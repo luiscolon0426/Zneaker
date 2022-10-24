@@ -45,6 +45,6 @@ Supported Languages: JavaScript
 
 
 ## Authors :scroll:
-- **Chris Lind**[\<ChrissLind\>](https://github.com/ChrissLind)
-- **Eiden Martinez Davila**[\<EGabriel-bot\>](https://github.com/EGabriel-bot)
-- **David Rodriguez Jimenez**[\<DavidDaniel1996\>](https://github.com/DavidDaniel1996)
+- **Chris Lind** <[ChrissLind](https://github.com/ChrissLind)>
+- **Eiden Martinez Davila** <[EGabriel-bot](https://github.com/EGabriel-bot)>
+- **David Rodriguez Jimenez** <[DavidDaniel1996](https://github.com/DavidDaniel1996)>
