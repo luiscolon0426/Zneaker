@@ -1,7 +1,7 @@
 # Code Pocket :jeans:
 ---
 It's code... but in your pocket.
-![alt text](https://imgur.com/gallery/lUa6NH7 "Logo Title Text")
+![alt text](https://imgur.com/gallery/lUa6NH7)
 
 ## About :blue_book:
 Have you ever wanted to show off your code but only have your phone? Maybe want to write a function to help automate some aspect of your life?
