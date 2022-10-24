@@ -1,8 +1,13 @@
-<center># Code Pocket :jeans:</center>
----
-It's code... but in your pocket.
+<h1 align="center">_codePocket</h1>
+<p align="center">
+  It's code... but in your pocket.
+</p>
 
-![alt text](https://i.imgur.com/LnhCoF9.jpeg)
+<p align="center">
+  <img src="https://i.imgur.com/LnhCoF9.jpeg"
+       alt="_codePocket logo"
+    />
+  </p>
 
 ## About :blue_book:
 Have you ever wanted to show off your code but only have your phone? Maybe want to write a function to help automate some aspect of your life?
