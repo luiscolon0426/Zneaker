@@ -16,7 +16,16 @@ _codePocket is a fun way to showcase simple funtions that you have made, on the 
  
 With _codePocket we want you to bring your code with you on your phone, and be able to run it and show it off anywhere at any time!
 
-  Supported Languages: JavaScript
+Supported Languages: JavaScript
+  
+## How to use _codePocket
+1. Enter [https://codepocket-4161f.web.app/](https://codepocket-4161f.web.app/) into your brower.
+
+2. Login to your github via firebase authentication.
+  
+3. On the output page fill your pocket with your .pocket repository and select a valid javascript file.
+  
+4. Run your code, change it or select a different file!
 
 ## Authors :scroll:
 - [Chris Lind](https://github.com/ChrissLind)
