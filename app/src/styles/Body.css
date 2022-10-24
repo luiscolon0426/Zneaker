@@ -85,6 +85,7 @@
   font-size: 1.875rem;
   inline-size: fit-content;
 }
+
 #member-position{
   width: fit-content;
   height: fit-content;
@@ -104,7 +105,6 @@
   gap: 6.25rem;
   margin-bottom: 5.625rem;
 }
-
 
 .member-1-container,
 .member-2-container,
@@ -133,4 +133,86 @@
   height: 30rem;
   display: block;
   margin: auto;
+}
+
+@media screen and (max-width: 500px){
+  .feature-1, .feature-2, .feature-3{
+    width: 100vw;
+  }
+
+  .feature-1 img{
+    width: 390px;
+    height: 300px;
+  }
+
+  .feature-1 h2{
+    margin-top: 0;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    padding: 10px;
+    margin-right: 0;
+    transform: translateX(-40px);
+  }
+
+  .feature-1 p{
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+    transform: translateX(-90px);
+    inline-size: 320px;
+  }
+
+  .feature-2 img{
+    width: 350px;
+    height: 350px;
+    margin: 0;
+    margin-top: 90px;
+    float: left;
+    margin-left: 40px;
+  }
+
+  .feature-2 h2{
+    margin: 10px 0 10px 10px;
+    font-size: 2rem;
+    padding: 10px;
+    float: left;
+
+  }
+
+  .feature-2 p{
+    float: right;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 30px;
+    margin-right: 50px;
+    inline-size: 320px;
+    transform: translateY(0);
+  }
+
+  .feature-3 img{
+    width: 400px;
+    height: 400px;
+    margin: 0;
+  }
+
+  .feature-3 h2 {
+    margin: 10px 0 10px 5px;
+    font-size: 2rem;
+    padding: 0px;
+    float: left;
+  }
+
+  .feature-3 p{
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    transform: translateX(-50px);
+    inline-size: 320px;
+  }
+
+  .team{
+    flex-direction: column;
+  }
 }

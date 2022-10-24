@@ -10,6 +10,7 @@ justify-content:space-between;
 border-top: 0.125rem solid var(--lightGray);
 margin-bottom: 2.5rem;
 padding-top: 1.875rem;
+gap: 1.25rem;
 }
 
 .logo{
@@ -26,4 +27,10 @@ padding-top: 1.875rem;
 .icon-1, .icon-2{
   width: 2rem;
   height: 2rem;
+}
+
+@media screen and (max-width: 500px){
+  .logo{
+    transform: translateX(-20px);
+  }
 }

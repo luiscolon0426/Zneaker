@@ -2,7 +2,7 @@
 
 .nav_bar{
   max-width: 100%;
-  min-height: 8.625rem;
+  min-height: 8rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -56,4 +56,12 @@
 .userIcon img{
   width: 2.8125rem;
   height: 2.8125rem;
+}
+
+@media screen and (max-width: 500px){
+  /*.login{
+    white-space: nowrap;
+    margin-left: 1.25rem;
+    transform: translateX(-10px);
+  }*/
 }

@@ -2,8 +2,8 @@
 
 .banner{
   background-color: var(--mainColor);
-  min-width:100%;
-  min-height: 40rem;
+  width:100vw;
+  height: 40rem;
   display: flex;
   justify-content: space-between;
 }
@@ -16,7 +16,8 @@
   margin-left: 300px;
 } 
 .aboutText{
-  width: fit-content;
+  width: 560px;
+  height: 183px;
   bottom: 70px;
   color: var(--white);
 }
@@ -46,4 +47,30 @@
   background-color: var(--altColor);
   cursor: pointer;
   margin: 90px 100px;
+}
+
+@media screen and (max-width: 500px){
+  .banner{
+    width: 100vh;
+    height: 25rem;
+  }
+
+  .aboutText{
+    inline-size: 400px;
+  }
+
+  .aboutText-container{
+    margin-left: 0;
+    font-size: 32px;
+    margin-top: 80px;
+    inline-size: 400px;
+  }
+
+  .bannerImage-container{
+    display: none;
+  }
+
+  .banner button{
+    margin-top: 1.25rem;
+  }
 }
