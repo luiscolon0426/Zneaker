@@ -15,7 +15,11 @@ const Features = () => {
         <img src={codeAnywhere} alt="multiple people coding" border="0"/>
           <h2>Play with your code anywhere.</h2>
           <div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p align="center">
+              With _codePocket we want you to have access to your code wherever you are! 
+              On your phone, computer or tablet as long as you have internet connection and access to a browser,
+              your code will be right there in your pocket.
+              </p>
           </div>
         </div>
       </div>
@@ -24,7 +28,11 @@ const Features = () => {
           <img src={cloud} alt="cloud" />
           <h2>Based on cloud technology.</h2>
           <div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p align="center">
+              _codePocket uses Firebase Cloud Firestore to store information on the cloud that is gathered after
+              Firebase Authentication access's your GitHub when you log in. Through the GitHub REST API we can get public information from your GitHub profile
+              and display it on our application.
+            </p>
           </div>
         </div>
       </div>
@@ -33,7 +41,11 @@ const Features = () => {
           <img src={atDisposal} alt="likepicture" />
           <h2>All your code at your disposal.</h2>
           <div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p align="center">
+              _codePocket can access your public repositories via the GitHub REST API.
+              You will need to create a GitHub repository that ends in '.pocket' and store the '.js' files you want to keep in your pocket for quick access.
+              For now _codePocket will only recognize '.js' files. We plan on implimenting other languages in the future.
+            </p>
           </div>
         </div>
       </div>
