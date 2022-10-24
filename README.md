@@ -20,12 +20,27 @@ Supported Languages: JavaScript
   
 ## How to use _codePocket
 1. Enter [https://codepocket-4161f.web.app/](https://codepocket-4161f.web.app/) into your brower.
+    -
+    -
 
 2. Login to your github via firebase authentication.
+    -
+    -
   
 3. On the output page fill your pocket with your .pocket repository and select a valid javascript file.
-  
+    -
+    -
+
 4. Run your code, change it or select a different file!
+    -
+    -
+    
+## Dependencies
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+
 
 ## Authors :scroll:
 - [Chris Lind](https://github.com/ChrissLind)
