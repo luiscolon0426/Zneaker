@@ -10,11 +10,11 @@
   </p>
 
 ## About :blue_book:
-Have you ever wanted to show off your code but only have your phone? Maybe want to write a function to help automate some aspect of your life?
+Have you ever wanted to show off your code but only have your phone? Or maybe you want to write a function to help automate some aspect of your life?
 
-_codePocket is a fun way to showcase simple funtions that you have made, on the go. As developers we have all had moments where we think to ourselves "I think I could write something in \<preferredlanguage\> to do this!" sometimes for even the simpleist of things, like simiulating a dice roll. 
+\_codePocket is a fun way to showcase simple funtions that you have made, on the go. As developers we have all had moments where we think to ourselves "I think I could write something in \<preferredlanguage\> to do this!" sometimes for even the simpleist of things, like simiulating a dice roll. 
  
-With _codePocket we want you to bring your code with you on your phone, and be able to run it and show it off anywhere at any time!
+With \_codePocket we want you to bring your code with you on your phone, and be able to run it and show it off anywhere at any time!
 
 Supported Languages: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
   
@@ -31,12 +31,12 @@ Supported Languages: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaS
 4. Run your code, change it or select a different file!
     
 ## Dependencies
-| Tool/Library| Version |
-| :---        |    :----:   |
-| axios     | ^1.1.3       |
-| firebase   | ^9.12.1        |
-| react    |   ^18.2.0     |
-| Node.js   | ^14.20.0  |
+| Tool/Library | Version |
+| :---         | :----:  |
+| axios        | ^1.1.3  |
+| firebase     | ^9.12.1 |
+| react        | ^18.2.0 |
+| Node.js      | ^14.20.0|
 
 
 ## Authors :scroll:
