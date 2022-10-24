@@ -16,7 +16,7 @@ _codePocket is a fun way to showcase simple funtions that you have made, on the 
  
 With _codePocket we want you to bring your code with you on your phone, and be able to run it and show it off anywhere at any time!
 
-Supported Languages: JavaScript <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
+Supported Languages: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
   
 ## How to use \_codePocket
 1. Enter [https://codepocket-4161f.web.app/](https://codepocket-4161f.web.app/) into your brower.
