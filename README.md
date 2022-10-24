@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/LnhCoF9.jpeg"
+  <img src="https://i.imgur.com/3AMHdCS.jpeg"
        alt="_codePocket logo"
     />
   </p>
