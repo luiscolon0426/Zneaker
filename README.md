@@ -2,7 +2,7 @@
 ---
 It's code... but in your pocket.
 
-<center>![alt text](https://i.imgur.com/LnhCoF9.jpeg)</center>
+![alt text](https://i.imgur.com/LnhCoF9.jpeg)
 
 ## About :blue_book:
 Have you ever wanted to show off your code but only have your phone? Maybe want to write a function to help automate some aspect of your life?
