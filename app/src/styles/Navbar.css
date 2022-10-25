@@ -58,7 +58,7 @@
   width: 100%;
   }
 
-#getIn{
+.getIn{
   width: 153.617px;
   height: 60px;
   padding: 15px 40px;
@@ -66,24 +66,27 @@
   border-radius: 1.25rem;
   color: var(--white);
   cursor:pointer;
-}
-
-.login button{
-  font-size: 1.5rem;
-  font-weight: normal;
-  border-radius: 2.5rem;
   border: none;
-  color: var(--white);
-  background-color: var(--altColor);
+  font-weight: normal;
+  font-size: 1.5rem;
 }
 
-.login button:hover{
+.activated{
+  width: 153.617px;
+  height: 60px;
+  padding: 15px 40px;
+  background-color: red;
+}
+
+
+.getIn:hover{
   opacity: .2;
 }
 
 @media screen and (max-width: 500px){
   .navbar{
     position: sticky;
+    overflow-x: hidden;
   }
 
   .links{

@@ -65,19 +65,24 @@
 
 @media screen and (max-width: 500px){
 
+  .nav_bar{
+    overflow-x: hidden;
+    position: sticky;
+  }
+
   .nav_bar h1{
-    margin-left: 1.5rem;
+    margin-left: 1rem;
     font-size: 1.5rem;
   }
 
   .logoutContainer{
     padding: 10px;
     margin: 0;
-    width: 205px;
+    width: fit-content;
     margin-right: 10px;
     height: 50px;
   }
-  
+
   .logoutContainer button{
     font-size: 1.1rem;
     white-space: nowrap;
