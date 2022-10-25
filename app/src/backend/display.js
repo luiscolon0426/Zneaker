@@ -1,5 +1,6 @@
 import { getRepos, getFiles, getSingleFile } from './api';
 import { htmlScreening, securityClearence } from './screening'
+import $ from 'jquery'
 
 
 let firstClick = false;
@@ -12,62 +13,54 @@ export const fillThePocket = async function fillThePocket () {
     const repos = await getRepos();
     const files = await getFiles(repos[0]);
 
-    // let fileObj = {}
-    // for (let i = 0; i < repos.length; i++) {
-    //     let files = await getFiles(repos[i])
-    //     fileObj[repos[i]] = files
-    // }
-    // let repo_file_List = [repos, fileObj]
-
     console.log('Filling with the pocket...');
     const repoTag = document.getElementById('repo');
     const fileTag = document.getElementById('file');
-    // const fboxTag = document.getElementById('fileBox');
-    const fdisplayTag = document.getElementById('fileDisplay')
 
     repoTag.innerHTML = `${repos[0]}`;
 
     for (let i = 0; i < files.length; i++) {
       const opt = document.createElement('option');
-      const pre = document.createElement('pre');
       opt.text = files[i];
-      opt.addEventListener('click', () => {
-        clearFileBox()
-        clearOutputBox()
-        displayFile(repos[0], files[i]).then(res => {
-          pre.innerHTML = res
-          fdisplayTag.appendChild(pre)
-        });
-      });
-
       fileTag.appendChild(opt);
     }
-    // repoTag.appendChild(opt1)
   } else {
     alert("Pocket Full!")
   }
 };
 
-// Displays content of file into filebox
-export const displayFile = async function displayFile (repo, fileName) {
+// Gets the contents of a file and turns them into ascii string
+export const getFileContent = async function getFileContent (repo, fileName) {
   let file;
   await getSingleFile(repo, fileName).then(res => {
     file = res;
   });
   const data = file.content;
-//   console.log(data);
   const buff = atob(data);
   const content = buff.toString('ascii');
-  // let text = content.replace(/\n/g, "<br>") 
 
   return content;
 };
 
+// Displays the contents of the file on the filebox
+export const displayFile = async function displayFile() {
+  const repos = await getRepos();
+  const pre = document.createElement('pre');
+  const fdisplayTag = document.getElementById('fileDisplay')
+  let fileName = $('option:selected', this).text()
+  clearFileBox()
+  clearOutputBox()
+  getFileContent(repos[0], fileName).then(res => {
+    pre.innerHTML = res
+    fdisplayTag.appendChild(pre)
+  })
+}
+
 // Reads text inside filebox
 export const readFileDisplay = function readFileDisplay() {
-    const fileTag = document.getElementById('fileDisplay');
-    let fileContent = fileTag.firstChild.textContent
-    return fileContent
+  const fileTag = document.getElementById('fileDisplay');
+  let fileContent = fileTag.firstChild.textContent
+  return fileContent
 }
 
 // Display the output on the outputbox
@@ -79,20 +72,12 @@ export const displayOutput = async function displayOutput() {
     const outputTag = document.getElementById('outputDisplay')
     let text = readFileDisplay()
     let fileContent = text
-    //.replace(/<br>/g, '\n')
-    // console.log(fileContent)
     fileContent = htmlScreening(fileContent)
-    // console.log(fileContent)
 
     console.oldLog = console.log
 
     console.log = function (value) {
         console.oldLog(value)
-        // if (!outputTag.hasChildNodes) {
-        //     outputTag.innerHTML = value
-        // } else {
-        //     outputTag.innerHTML += "<br>" + value
-        // }
         outputTag.innerHTML += value + "<br>"
     }
 
