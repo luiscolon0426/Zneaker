@@ -157,5 +157,7 @@
 
   #outputDisplay{
     word-wrap: break-word;
+    overflow-y: auto;
+    height: 360px;
   }
 }
