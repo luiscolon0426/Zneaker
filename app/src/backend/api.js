@@ -131,8 +131,3 @@ export const setPic = async function setPic() {
   const avatarTag = document.getElementById('avatar')
   avatarTag.src = avatar
 }
-
-// export const printRepoList = async function printRepoList() {
-//   const repoList = await getFiles()
-//   console.log(repoList)
-// }

@@ -12,12 +12,8 @@ export const securityClearence = async function securityClearence() {
     authorizedIds.forEach(id => {
         if (uid === id) {
             match = true
-            // console.log("Authorized id")
         }
     })
-    // if (match === false) {
-    //     console.log("Unauthorized id")
-    // }
 
     return match
 }
@@ -61,8 +57,9 @@ export const htmlScreening = function htmlScreening(fileContent) {
     }
 }
 
+// Displays "Logging in" box to delay users from going "Into the pocket too early"
 export const loggingUserIn = function loggingUserIn() {
-    var el = document.createElement("div");
+    let el = document.createElement("div");
     el.setAttribute("class","progress");
     el.innerHTML = "Logging in...";
      setTimeout(function(){
