@@ -30,7 +30,7 @@ export let uid;
 // Verifies if a user is logged in or not
 onAuthStateChanged(auth, (user) => {
   if (user) {
-    // loggingUserIn();
+    loggingUserIn();
     uid = user.uid;
     console.log('User logged in');
     addUser();

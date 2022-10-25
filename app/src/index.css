@@ -6,6 +6,17 @@
   font-family: Sora;
 }
 
+.progress{
+  background-color: var(--altColor);
+  color: var(--white);
+  border: none;
+  padding: 20px 40px;
+  font-size: 28px;
+  border-radius: 20px;
+  margin-top: 160px;
+  margin-left: -40px;
+}
+
 @media  screen and (max-width:500px){
   body{
     width: 100vw;
