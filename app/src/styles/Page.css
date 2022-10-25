@@ -149,4 +149,12 @@
     height: 50vh;
     margin-bottom: 20px;
   }
+
+  #fileDisplay{
+    height: 380px;
+  }
+
+  #outputDisplay{
+    word-wrap: break-word;
+  }
 }
