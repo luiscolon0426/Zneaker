@@ -4,7 +4,7 @@ import { auth } from '../firebase.js';
 import { GithubAuthProvider, signInWithRedirect, onAuthStateChanged, getRedirectResult, signOut } from 'firebase/auth';
 import { addUser, saveToken, deleteToken } from './db.js';
 import { setPic } from './api.js';
-import { securityClearence } from './screening.js';
+import { securityClearence, loggingUserIn } from './screening.js';
 
 const provider = new GithubAuthProvider();
 
@@ -30,6 +30,7 @@ export let uid;
 // Verifies if a user is logged in or not
 onAuthStateChanged(auth, (user) => {
   if (user) {
+    // loggingUserIn();
     uid = user.uid;
     console.log('User logged in');
     addUser();

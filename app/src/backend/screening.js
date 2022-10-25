@@ -61,3 +61,12 @@ export const htmlScreening = function htmlScreening(fileContent) {
     }
 }
 
+// export const loggingUserIn = function loggingUserIn() {
+//     var el = document.createElement("div");
+//     el.setAttribute("style","position:absolute;top:40%;left:20%;background-color:white;");
+//     el.innerHTML = "Logging in...";
+//     setTimeout(function(){
+//      el.parentNode.removeChild(el);
+//     }, 3000);
+//     document.body.appendChild(el);
+// }
