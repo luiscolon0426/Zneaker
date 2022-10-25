@@ -143,15 +143,19 @@
     border-radius: 1.25rem 1.25rem 0 0;
   }
 
+  .codeBox1{
+    height: 350px;
+  }
+
   .codeBox1, .codeBox2{
     border-radius: 1.25rem;
     width: 85vw;
-    height: 50vh;
+    height: 70vh;
     margin-bottom: 20px;
   }
 
   #fileDisplay{
-    height: 350px;
+    height: 200px;
     inline-size: 300px;
     width: 74vw;
   }
@@ -159,6 +163,6 @@
   #outputDisplay{
     word-wrap: break-word;
     overflow-y: auto;
-    height: 350px;
+    height: 200px;
   }
 }
