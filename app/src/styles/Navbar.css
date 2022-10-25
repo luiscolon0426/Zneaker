@@ -58,7 +58,7 @@
   width: 100%;
   }
 
-.getIn{
+#getIn{
   width: 153.617px;
   height: 60px;
   padding: 15px 40px;
@@ -79,7 +79,7 @@
 }
 
 
-.getIn:hover{
+#getIn:hover{
   opacity: .2;
 }
 

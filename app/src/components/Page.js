@@ -1,4 +1,5 @@
 import { fillThePocket, displayOutput } from '../backend/display';
+import { displayFile } from '../backend/display';
 import '../styles/Page.css';
 import play_button from '../imgs/PLAY.png'
 
@@ -22,7 +23,7 @@ const Page = () => {
               <p contentEditable="true" id="fileDisplay">file content</p>
             </div>
             <div id='outputBox'className='codeBox2'>
-              <select id="file" className='outputSelect'>
+              <select id="file" onChange={displayFile} className='outputSelect'>
                 <option value="">Select your file</option>
               </select>
               <p id="outputDisplay">lore</p>
