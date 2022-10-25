@@ -13,8 +13,9 @@
   padding: 20px 40px;
   font-size: 28px;
   border-radius: 20px;
-  margin-top: 160px;
-  margin-left: -40px;
+  position: absolute;
+  top: 58vh;
+  right: 56vw;
 }
 
 @media  screen and (max-width:500px){
