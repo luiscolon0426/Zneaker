@@ -135,7 +135,12 @@
   margin: auto;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 550px){
+  .container{
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
   .feature-1, .feature-2, .feature-3{
     width: 100vw;
   }

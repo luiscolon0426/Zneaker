@@ -53,11 +53,15 @@
   opacity: .6;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 550px){
+
+
   .banner{
     width: 100vh;
     height: 25rem;
     justify-content: space-between;
+    overflow-y: hidden;
+    overflow-x: hidden;
   }
 
   .aboutText{

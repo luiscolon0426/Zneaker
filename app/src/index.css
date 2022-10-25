@@ -18,14 +18,14 @@
   right: 56vw;
 }
 
-@media  screen and (max-width:500px){
+@media  screen and (max-width:550px){
   body{
     width: 100vw;
     overflow-x: hidden;
   }
   .progress{
    white-space: nowrap;
-   right: 24vw;
-   top: 48vh;
+   right: 17vw;
+   top: 45vh;
   }
 }

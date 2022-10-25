@@ -83,10 +83,15 @@
   opacity: .2;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 550px){
   .navbar{
     position: sticky;
     overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .navbar h1{
+    font-size: 1.8rem;
   }
 
   .links{

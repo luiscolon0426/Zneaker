@@ -151,13 +151,14 @@
   }
 
   #fileDisplay{
-    height: 380px;
+    height: 350px;
     inline-size: 300px;
+    width: 74vw;
   }
 
   #outputDisplay{
     word-wrap: break-word;
     overflow-y: auto;
-    height: 360px;
+    height: 350px;
   }
 }

@@ -19,6 +19,7 @@
   height: fit-content;
   margin-left: 2.5rem;
   font-weight: 800;
+  cursor: pointer;
 }
 
 
@@ -63,7 +64,7 @@
   height: 2.8125rem;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 550px){
 
   .nav_bar{
     overflow-x: hidden;
