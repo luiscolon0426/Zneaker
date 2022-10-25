@@ -5,7 +5,7 @@
   width:100vw;
   height: 40rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .aboutText-container{
   width: fit-content;
@@ -49,10 +49,15 @@
   margin: 90px 100px;
 }
 
+.banner button:hover{
+  opacity: .6;
+}
+
 @media screen and (max-width: 500px){
   .banner{
     width: 100vh;
     height: 25rem;
+    justify-content: space-between;
   }
 
   .aboutText{
