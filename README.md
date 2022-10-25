@@ -36,8 +36,7 @@ Supported Languages: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaS
 | axios        | ^1.1.3  |
 | firebase     | ^9.12.1 |
 | react        | ^18.2.0 |
-| Node.js      | ^14.20.0|
-
+| jquery       | ^3.6.1  |
 
 ## Authors :scroll:
 - **Chris Lind** <[ChrissLind](https://github.com/ChrissLind)>
