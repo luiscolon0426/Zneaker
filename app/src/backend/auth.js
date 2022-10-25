@@ -30,7 +30,9 @@ export let uid;
 // Verifies if a user is logged in or not
 onAuthStateChanged(auth, (user) => {
   if (user) {
-    loggingUserIn();
+    if (!(window.location.href.indexOf('/app') > -1)) {
+      loggingUserIn();
+    }
     uid = user.uid;
     console.log('User logged in');
     addUser();
@@ -44,10 +46,6 @@ onAuthStateChanged(auth, (user) => {
         }
       }
     })
-    // console.log("After clearance")
-  // if (window.location.href.indexOf('/home') > -1) {
-  //   window.location.href = '/app'
-  // }
   } else {
     uid = 'False';
     if (window.location.href.indexOf('/app') > -1) {

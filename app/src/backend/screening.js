@@ -65,8 +65,8 @@ export const loggingUserIn = function loggingUserIn() {
     var el = document.createElement("div");
     el.setAttribute("class","progress");
     el.innerHTML = "Logging in...";
-    //  setTimeout(function(){
-    //   el.parentNode.removeChild(el);
-    //  }, 3000);
+     setTimeout(function(){
+      el.parentNode.removeChild(el);
+     }, 3000);
     document.body.appendChild(el);
 }
