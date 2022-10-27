@@ -5,6 +5,8 @@ import atDisposal from '../imgs/disposal.png';
 import eiden from '../imgs/Eiden.jpg';
 import chris from '../imgs/chris.JPG';
 import david from '../imgs/david.jpg';
+import githubLogo from '../imgs/github.png'
+import linkedInLogo from '../imgs/linkedin.png'
 
 const Features = () => {
   return (
@@ -57,6 +59,10 @@ const Features = () => {
           </div>
           <p id='member-name'>David Rodriguez Jimenez</p>
           <p id='member-position'>Full-Stack Developer</p>
+          <div className="contact-links">
+            <a href="https://github.com/DavidDaniel1996"><img src={githubLogo} alt="" /></a>
+            <a href="https://www.linkedin.com/in/david-rodr%C3%ADguez-6810b6199/"><img src={linkedInLogo} alt="" /></a>
+          </div>
         </div>
         <div>
           <div className='member-2-container'>
@@ -64,6 +70,10 @@ const Features = () => {
           </div>
           <p id='member-name'>Christopher Lind</p>
           <p id='member-position'>Full-Stack Developer</p>
+          <div className="contact-links">
+            <a href="https://github.com/ChrissLind"><img src={githubLogo} alt="" /></a>
+            <a href="https://www.linkedin.com/in/chris-lind-749883230/"><img src={linkedInLogo} alt="" /></a>
+          </div>
         </div>
         <div>
           <div className='member-3-container'>
@@ -71,6 +81,10 @@ const Features = () => {
           </div>
           <p id='member-name'>Eiden Martinez Davila</p>
           <p id='member-position'>Front-End Developer</p>
+          <div className="contact-links">
+            <a href="https://github.com/EGabriel-bot"><img src={githubLogo} alt="" /></a>
+            <a href="www.linkedin.com/in/emd07"><img src={linkedInLogo} alt="" /></a>
+          </div>
         </div>
       </div>
     </div>

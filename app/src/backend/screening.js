@@ -60,7 +60,7 @@ export const htmlScreening = function htmlScreening(fileContent) {
 // Displays "Logging in" box to delay users from going "Into the pocket too early"
 export const loggingUserIn = function loggingUserIn() {
     let el = document.createElement("div");
-    el.setAttribute("class","progress");
+    el.setAttribute("class","blocker");
     el.innerHTML = "Logging in...";
      setTimeout(function(){
       el.parentNode.removeChild(el);
