@@ -86,8 +86,8 @@
 @media screen and (max-width: 550px){
   .navbar{
     position: sticky;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-x: visible;
+    overflow-y: visible;
   }
 
   .navbar h1{
