@@ -11,7 +11,7 @@
   z-index: 9;
   border-bottom: 0.0625rem solid var(--lightGray);
 }
-.navbar h1{
+.mainLogo{
   color: var(--headerColor);
   font-size: 2rem;
   width: fit-content;

@@ -29,6 +29,10 @@ gap: 1.25rem;
   height: 2rem;
 }
 
+.footer img:hover{
+  opacity: .1;
+}
+
 @media screen and (max-width: 550px){
   .footer{
     overflow-x: hidden;

@@ -11,7 +11,7 @@ import linkedInLogo from '../imgs/linkedin.png'
 const Features = () => {
   return (
     <div className='container'>
-      <h2>It's code... but in your pocket.</h2>
+      <h2 id="anywhere">It's code... but in your pocket.</h2>
       <div className='feature-1'>
         <div className='feature-item-1'>
         <img src={codeAnywhere} alt="multiple people coding" border="0"/>

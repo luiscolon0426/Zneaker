@@ -3,7 +3,7 @@ import home_image from '../imgs/home_image.jpg'
 
 const Banner = () => {
   return (
-    <div className="banner">
+    <div id='top' className="banner">
       <div className='aboutText-container'>
         <p className='aboutText'><strong>_codePocket</strong> will help you bring your ideas on the go.</p>
         <button onClick={() => window.location.href = '/app'}>Into the pocket</button>
