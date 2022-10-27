@@ -20,13 +20,13 @@ const Page = () => {
                 <div className='repoContainer'>
                   <div id="repo" className='repo'>No repo</div>
               </div>
-              <p contentEditable="true" id="fileDisplay">file content</p>
+              <p contentEditable="true" id="fileDisplay"></p>
             </div>
             <div id='outputBox'className='codeBox2'>
               <select id="file" onChange={displayFile} className='outputSelect'>
                 <option value="">Select your file</option>
               </select>
-              <p id="outputDisplay">lore</p>
+              <p id="outputDisplay"></p>
             </div>
           </div>
         </div>
