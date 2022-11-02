@@ -48,6 +48,6 @@ Supported Languages: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaS
 | jquery       | ^3.6.1  |
 
 ## Authors :scroll:
-- **Chris Lind** <[ChrissLind](https://github.com/ChrissLind)> - <[LinkedIn](https://www.linkedin.com/in/christopher-lind-749883230/)>
-- **Eiden Martinez Davila** <[EGabriel-bot](https://github.com/EGabriel-bot)> - <[LinkedIn](https://www.linkedin.com/in/emd07/)>
-- **David Rodriguez Jimenez** <[DavidDaniel1996](https://github.com/DavidDaniel1996)> - <[LinkedIn](https://www.linkedin.com/in/david-rodr%C3%ADguez-6810b6199/)>
+- **Chris Lind** <[ChrissLind](https://github.com/ChrissLind)> - [LinkedIn](https://www.linkedin.com/in/christopher-lind-749883230/)
+- **Eiden Martinez Davila** <[EGabriel-bot](https://github.com/EGabriel-bot)> - [LinkedIn](https://www.linkedin.com/in/emd07/)
+- **David Rodriguez Jimenez** <[DavidDaniel1996](https://github.com/DavidDaniel1996)> - [LinkedIn](https://www.linkedin.com/in/david-rodr%C3%ADguez-6810b6199/)
