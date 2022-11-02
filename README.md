@@ -39,7 +39,7 @@ Supported Languages: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaS
 
 4. Run `npm install` and you can now `npm start` our pocket whenever you want!
     
-## Dependencies
+## Dependencies 🖋️
 | Tool/Library | Version |
 | :---         | :----:  |
 | axios        | ^1.1.3  |
