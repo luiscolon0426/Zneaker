@@ -48,6 +48,6 @@ Supported Languages: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaS
 | jquery       | ^3.6.1  |
 
 ## Authors :scroll:
-- **Chris Lind** <[ChrissLind](https://github.com/ChrissLind)>
+- **Chris Lind** <[ChrissLind](https://github.com/ChrissLind)> - 
 - **Eiden Martinez Davila** <[EGabriel-bot](https://github.com/EGabriel-bot)>
 - **David Rodriguez Jimenez** <[DavidDaniel1996](https://github.com/DavidDaniel1996)>
