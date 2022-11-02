@@ -47,6 +47,16 @@ Supported Languages: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaS
 | react        | ^18.2.0 |
 | jquery       | ^3.6.1  |
 
+## Story of _codePocket :scroll:
+
+### So why _codePocket?
+
+The idea comes about on a regular weekday midday. At our school's daily stand up meetings, our lead mentor proposes an interesting challenge. You see, when he goes to restaurants, he likes to tip, and after tipping, he likes to round up the total to a certain cent (say .77, for example). It allows him to quickly ascertain if someone has been using his credit card when checking his bank account. If he says the payments made ending with .77, he knows it was him! So he proposes a small coding challenge: write a program that can calculate the tip and then round up to the specified cent value.
+
+"Easy enough", says Chris Lind to me. "But how we would use this program? We're not gonna pull out our laptop in the middle of the restaurant just to run it". And he was right, there had to be a better way. "Wouldn't it be cool if there was an app in which we could run code that we've created at home?", I answer. And in that moment, we knew we had something we wanted to do, something to work on.
+
+Eiden Martinez really wanted to develop an application for a phone, and all three of us spent the next few hours brainstorming of ways we could make this possible. After a few days of sparse research and consulting with our lead mentor, we settled on the idea of making a web app formatted for a phone, that can run JavaScript code that is pulled from the user's GitHub. It seemed like a doable challenge, if one we had not much experience in tackling. And thus, excitement sparked, and the rest, as you say, is history. 
+
 ## Authors :scroll:
 - **Chris Lind** <[ChrissLind](https://github.com/ChrissLind)> - [LinkedIn](https://www.linkedin.com/in/christopher-lind-749883230/)
 - **Eiden Martinez Davila** <[EGabriel-bot](https://github.com/EGabriel-bot)> - [LinkedIn](https://www.linkedin.com/in/emd07/)
