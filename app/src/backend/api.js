@@ -17,26 +17,29 @@ export const getGithubInfo = async function getGithubInfo (dataRequested) {
     data: data
   };
 
+  // Returns github user login information
   if (dataRequested === 'login') {
     return axios(config)
-    .then(function (response) { 
-      data = response.data.login;
-      return data;
-    })
-    .catch(function (error) {
-      console.log(error);
-    });
-  } else if (dataRequested === 'avatar') {
+      .then(function (response) {
+        data = response.data.login;
+        return data;
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
+  }
+  // Returns github user profile picture
+  else if (dataRequested === 'avatar') {
     return axios(config)
-    .then(function (response) { 
-      data = response.data.avatar_url;
-      return data;
-    })
-    .catch(function (error) {
-      console.log(error);
-    });
+      .then(function (response) {
+        data = response.data.avatar_url;
+        return data;
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
   } else {
-    return undefined
+    return undefined;
   }
 };
 
@@ -56,6 +59,7 @@ export const getRepos = async function getRepos () {
     data: data
   };
 
+  // Returns a list of user's repos that contain ".pocket"
   return axios(config)
     .then(function (response) {
       const repoList = [];
@@ -86,6 +90,7 @@ export const getFiles = async function getFiles (repo) {
     data: data
   };
 
+  // Returns list of all ".js" files inside valid repo
   return axios(config)
     .then(function (response) {
       const fileList = [];
@@ -116,6 +121,7 @@ export const getSingleFile = async function getSingleFile (repo, filename) {
     data: data
   };
 
+  // Returns specified file
   return axios(config)
     .then(function (response) {
       return response.data;
@@ -125,9 +131,9 @@ export const getSingleFile = async function getSingleFile (repo, filename) {
     });
 };
 
-// Setes github pic
-export const setPic = async function setPic() {
-  const avatar = await getGithubInfo('avatar')
-  const avatarTag = document.getElementById('avatar')
-  avatarTag.src = avatar
-}
+// Sets github pic
+export const setPic = async function setPic () {
+  const avatar = await getGithubInfo('avatar');
+  const avatarTag = document.getElementById('avatar');
+  avatarTag.src = avatar;
+};

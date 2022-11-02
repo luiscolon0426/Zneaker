@@ -19,7 +19,6 @@ export const logIn = function logIn () {
 // handles log out
 export const logOut = async function logOut () {
   await deleteToken();
-  // window.location.href = '/home'
   signOut(auth).then(() => {}).catch((err) => {
     console.log('Sign out error occurred');
     console.log(err);
@@ -29,6 +28,7 @@ export const logOut = async function logOut () {
 export let uid;
 // Verifies if a user is logged in or not
 onAuthStateChanged(auth, (user) => {
+  // Retrieve unique user id and verify security clearance
   if (user) {
     if (!(window.location.href.indexOf('/app') > -1)) {
       loggingUserIn();
@@ -41,15 +41,17 @@ onAuthStateChanged(auth, (user) => {
         setPic();
       } else {
         if (window.location.href.indexOf('/app') > -1) {
-          alert("Unauthorized user detected")
+          alert('Unauthorized user detected');
           window.location.href = '/';
         }
       }
-    })
-  } else {
+    });
+  }
+  // Sets uid to "False" and disables accessing the pocket
+  else {
     uid = 'False';
     if (window.location.href.indexOf('/app') > -1) {
-      alert("Please log in")
+      alert('Please log in');
       window.location.href = '/';
     }
   }
@@ -57,6 +59,7 @@ onAuthStateChanged(auth, (user) => {
 
 // Gets redirect results of log in
 getRedirectResult(auth).then(res => {
+  // Retrieves user's Github OAuth token on login
   try {
     const credential = GithubAuthProvider.credentialFromResult(res);
     const token = credential.accessToken;
