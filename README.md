@@ -37,7 +37,7 @@ Supported Languages: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaS
 
 3. Navigate to the app file in the repo
 
-4. Run `npm start`
+4. Run `npm install` and you can now `npm start` our pocket!
     
 ## Dependencies
 | Tool/Library | Version |
