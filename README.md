@@ -29,6 +29,15 @@ Supported Languages: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaS
     - Within your repo only .js files will show up and can be run
 
 4. Run your code, change it or select a different file!
+
+## Installation :minidisc:
+1. Clone CodePocket repo
+
+2. Install npm using `npm install -g npm`
+
+3. Navigate to the app file in the repo
+
+4. Run `npm start`
     
 ## Dependencies
 | Tool/Library | Version |
