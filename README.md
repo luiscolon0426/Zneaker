@@ -1,69 +1,52 @@
-<h1 align="center">_codePocket</h1>
-<p align="center">
-  It's code... but in your pocket.
-</p>
+# Zneaker
 
-<p align="center">
-  <img src="https://i.imgur.com/3AMHdCS.jpeg"
-       alt="_codePocket logo"
-    />
-  </p>
+Welcome to Zneaker, the ultimate destination for sneaker enthusiasts! This repository houses the source code for our dynamic and interactive sneaker website. Whether you're a casual sneakerhead or a die-hard collector, Zneaker offers a seamless browsing and shopping experience.
 
-## About :blue_book:
-Have you ever wanted to show off your code but only have your phone? Or maybe you want to write a function to help automate some aspect of your life?
+## Features
 
-\_codePocket is a fun way to showcase simple functions that you have made, on the go. As developers we have all had moments where we think to ourselves "I think I could write something in \<preferredlanguage\> to do this!" sometimes for even the simpleist of things, like simulating a dice roll. 
- 
-With \_codePocket we want you to bring your code with you on your phone, and be able to run it and show it off anywhere at any time!
+- **Extensive Sneaker Catalog:** Browse through an extensive collection of sneakers, including the latest releases, limited editions, and classic favorites. Our catalog is regularly updated, ensuring you have access to the hottest sneakers on the market.
 
-Supported Languages: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
-  
-## How to use \_codePocket
-1. Enter [https://codepocket-4161f.web.app/](https://codepocket-4161f.web.app/) into your brower.
+- **Search and Filtering:** Easily find the sneakers you're looking for with our powerful search and filtering capabilities. Narrow down your search by brand, model, size, color, and more.
 
-2. Login to your github via firebase authentication.
-    - Once you have been logged in click the  'Into the pocket' button that will get you into the application
-  
-3. On the output page fill your pocket with your .pocket repository and select a valid javascript file.
-    - \_codePocket will automatically fill a repo that's name ends in '.pocket'
-    - Within your repo only .js files will show up and can be run
+- **Product Details:** Get detailed information about each sneaker, including images, descriptions, pricing, available sizes, and customer reviews. Make an informed decision before making a purchase.
 
-4. Run your code, change it or select a different file!
+## Installation
 
-## Installation :minidisc:
-1. Clone CodePocket repo
+To run SneakerWorld locally, follow these steps:
 
-2. Install npm using `npm install -g npm`
+1. Clone the repository: `git clone https://github.com/your-username/Zneaker.git`
+2. Navigate to the project directory: `cd sneakerworld`
+3. Install the dependencies: `npm install`
+4. Set up the required environment variables (e.g., database connection details, API keys, etc.).
+5. Start the development server: `npm start`
+6. Open your browser and visit `http://localhost:3000` to access the SneakerWorld website.
 
-3. Navigate to the app file in the repo
+Note: Zneaker requires Node.js and npm (Node Package Manager) to be installed on your machine.
 
-4. Run `npm install` and you can now `npm start` our pocket whenever you want!
-    
-## Dependencies 🖋️
-| Tool/Library | Version |
-| :---         | :----:  |
-| axios        | ^1.1.3  |
-| firebase     | ^9.12.1 |
-| react        | ^18.2.0 |
-| jquery       | ^3.6.1  |
+## Technologies Used
 
-## Story of \_codePocket :scroll:
+- **Front-end:** JavaScript, React.js
+- **Back-end:** Node.js
+- **Authentication:** JSON Web Tokens (JWT)
 
-### So why \_codePocket?
+## Contributing
 
-The idea comes about on a regular weekday midday. At our school's daily stand up meetings, our lead mentor proposes an interesting challenge. You see, when he goes to restaurants, he likes to tip, and after tipping, he likes to round up the total to a certain cent (say .77, for example). It allows him to quickly ascertain if someone has been using his credit card when checking his bank account. If he says the payments made ending with .77, he knows it was him! So he proposes a small coding challenge: write a program that can calculate the tip and then round up to the specified cent value.
+We welcome contributions to enhance the features and functionality of Zneaker. If you'd like to contribute, please follow these guidelines:
 
-"Easy enough", says Chris Lind to David Rodriguez. "But how we would use this program? We're not gonna pull out our laptop in the middle of the restaurant just to run it". And he was right, there had to be a better way. "Wouldn't it be cool if there was an app in which we could run code that we've created at home?", David answers. And in that moment, we knew we had something we wanted to do, something to work on.
+1. Fork the repository.
+2. Create a new branch for your feature: `git checkout -b feature-name`
+3. Implement your changes and ensure they follow the coding style and conventions.
+4. Test your changes thoroughly.
+5. Commit your changes: `git commit -m "Add feature-name"`
+6. Push to your forked repository: `git push origin feature-name`
+7. Create a pull request to the `main` branch of the SneakerWorld repository.
 
-Eiden Martinez really wanted to develop an application for a phone, and all three of us spent the next few hours brainstorming of ways we could make this possible. After a few days of sparse research and consulting with our lead mentor, we settled on the idea of making a web app formatted for a phone, that can run JavaScript code that is pulled from the user's GitHub. It seemed like a doable challenge, if one we had not much experience in tackling. And thus, excitement sparked, and the rest, as you say, is history. 
+Please provide a detailed description of the changes you've made and any relevant information to help us review your pull request.
 
-### Future Plans
-We really like the idea of adding Python3 functionality to the pocket, it's a favorite language at Holberton and it's beginner friendly so for student's who would want to use our app, we think having that would be a great feature.
+## License
 
-### A bit about the technology
-For the technologies used, the front end is surprisingly comprised of only one single, rarely used, HTML file. All rendering is done dynamically through the React library from JavaScript, and all styling done through CSS. The back end uses a combination of vanilla JavaScript for most of its logic, the JQuery library to interact with DOM elements, the Axios library to interact to make API calls, and Firebase to handle the app's authentication, database needs, and hosting.
+The Zneaker project is licensed under the [MIT License](LICENSE.md). Feel free to use, modify, and distribute the code according to the terms of the license.
 
-## Authors :scroll:
-- **Chris Lind** <[ChrissLind](https://github.com/ChrissLind)> - [LinkedIn](https://www.linkedin.com/in/christopher-lind-749883230/)
-- **Eiden Martinez Davila** <[EGabriel-bot](https://github.com/EGabriel-bot)> - [LinkedIn](https://www.linkedin.com/in/emd07/)
-- **David Rodriguez Jimenez** <[DavidDaniel1996](https://github.com/DavidDaniel1996)> - [LinkedIn](https://www.linkedin.com/in/david-rodr%C3%ADguez-6810b6199/)
+## Contact
+
+If you have any questions, suggestions, or feedback, please reach out to us.
