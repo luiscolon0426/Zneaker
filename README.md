@@ -1,7 +1,7 @@
 # Zneaker
 
 <p align="center">
-  <img src="[https://i.imgur.com/3AMHdCS.jpeg](https://hotpotmedia.s3.us-east-2.amazonaws.com/8-Wr7ffC9Xaz0pRL5.png?nc=1)"
+  <img src=https://i.pinimg.com/originals/65/44/63/6544636e936c4b67dcf2265f4a42d463.png
        alt="Zneaker logo"
     />
   </p>
