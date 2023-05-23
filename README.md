@@ -1,5 +1,11 @@
 # Zneaker
 
+<p align="center">
+  <img src="[https://i.imgur.com/3AMHdCS.jpeg](https://hotpotmedia.s3.us-east-2.amazonaws.com/8-Wr7ffC9Xaz0pRL5.png?nc=1)"
+       alt="Zneaker logo"
+    />
+  </p>
+
 Welcome to Zneaker, the ultimate destination for sneaker enthusiasts! This repository houses the source code for our dynamic and interactive sneaker website. Whether you're a casual sneakerhead or a die-hard collector, Zneaker offers a seamless browsing and shopping experience.
 
 ## Features
