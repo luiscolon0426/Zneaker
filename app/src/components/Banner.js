@@ -5,11 +5,10 @@ const Banner = () => {
   return (
     <div id='top' className="banner">
       <div className='aboutText-container'>
-        <p className='aboutText'><strong>_codePocket</strong> will help you bring your ideas on the go.</p>
-        <button onClick={() => window.location.href = '/app'}>Into the pocket</button>
+        <p className='aboutText'><strong>Zneaker</strong> Step Up your sneaker game.</p>
+        <button onClick={() => window.location.href = '/app'}></button>
       </div>
       <div className='bannerImage-container'>
-        <img className='bannerImage' src={home_image} alt="working in a mobile app" />
       </div>
     </div>
    );
